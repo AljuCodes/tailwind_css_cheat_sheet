@@ -82,6 +82,28 @@
 
 ---
 
+## Spacing Between Flex Items
+
+- **`.space-x-{n}`**: Adds horizontal space between items (e.g., `.space-x-4`).  
+- **`.space-y-{n}`**: Adds vertical space between items (e.g., `.space-y-4`).  
+
+### Example:
+```html
+<div class="flex flex-col space-y-4">
+  <div class="p-4 bg-purple-200">Item 1</div>
+  <div class="p-4 bg-purple-300">Item 2</div>
+  <div class="p-4 bg-purple-400">Item 3</div>
+</div>
+
+<div class="flex space-x-4">
+  <div class="p-4 bg-yellow-200">Item 1</div>
+  <div class="p-4 bg-yellow-300">Item 2</div>
+  <div class="p-4 bg-yellow-400">Item 3</div>
+</div>
+```
+
+---
+
 ## Order
 
 - **`.order-{number}`**: Controls the order of items. Lower numbers are displayed first.
